@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container m-4">
+        <div class="text-center h1">Checkout form</div>
+        <div class=" text-center h5">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a
+        </div>
+        <div class=" text-center h5">validation state that can be triggered by attempting to submit the form without completing it.</div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <div class="h4 mb-4 mt-4">Billing address </div>
+                <div class="row">
+                    <div class="col-6">
+                        <label class="form-label" for="idfirstname">First name</label>
+                        <input class="form-control" type="text" name="firstname" id="idfirstname">
+                    </div>
+                    <div class="col-6">
+                        <label class="form-label" for="idlastname">Last name</label>
+                        <input class="form-control" type="text" name="lastname" id="idlastname">
+                    </div>
+                </div>
+                <div>
+                    <label class="mt-3 form-label" for="idusername">Username</label>
+                    <input class="form-control" type="text" name="username" id="idusername">
+                </div>
+                <div>
+                    <label class="mt-3 form-label" for="idemail">Email</label>
+                    <input class="form-control" type="text" name="email" id="idemail" placeholder="you@example.com">
+                </div>
+                <div>
+                    <label class="mt-3 form-label" for="idaddress">Address</label>
+                    <input class="form-control" type="text" name="address" id="idaddress" placeholder="1234 Main St">
+                </div>
+                <div>
+                    <label class="mt-3 form-label" for="idaddress2">Address2</label>
+                    <input class="form-control" type="text" name="address2" id="idaddress2" placeholder="Apartment or suite">
+                </div>
+                <div class="row mt-4">
+                    <div class="col-5 mb-2">
+                        <label class="form-label" for="idcountry">Country</label>
+                        <input class="form-control" type="text" name="country" id="idcountry">
+                    </div>
+                    <div class="col-4 mb-2">
+                        <label class="form-label" for="idstate">State</label>
+                        <input class="form-control" type="text" name="state" id="idstate">
+                    </div>
+                    <div class="col-3 mb-2">
+                        <label class="form-label" for="idzip">Zip</label>
+                        <input class="form-control" type="text" name="zip" id="idzip">
+                    </div>
+                </div>
+                <hr>
+                <div class="mt-4 form-check">
+                    <input type="checkbox" name="check1" value="check1" class="form-check-input" id="idcheck1">
+                    <label for="idcheck1" class="form-check-lable">Shipping address is the same as my billing address</label>
+                </div>
+                <div class=" mb-4 form-check">
+                    <input type="checkbox" name="check2" value="check2" class="form-check-input" id="idcheck2">
+                    <label for="idcheck2" class="form-check-lable">Save this information for next time</label>
+                </div>
+                <hr>
+                <div class="h4 mt-4 mb-4">Payment</div>
+                <div class="form-check">
+                    <input type="radio" name="payment" value="Credit card" class="form-check-input" id="idcredit">
+                    <label for="idcredit" class="form-check-lable">Credit card</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" name="payment" value="Debit card" class="form-check-input" id="iddebit">
+                    <label for="iddebit" class="form-check-lable">Debit card</label>
+                </div>
+                <div class=" mb-4 form-check">
+                    <input type="radio" name="payment" value="PayPal" class="form-check-input" id="idpay">
+                    <label for="idpay" class="form-check-lable">PayPal</label>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <label class="form-label" for="idnamecard">Name on card</label>
+                        <input class="form-control" type="text" name="namecard" id="idnamecard">
+                    </div>
+                    <div class="col-6">
+                        <label class="form-label" for="idcardnumber">Credit card number</label>
+                        <input class="form-control" type="text" name="cardnumber" id="idcardnumber">
+                    </div>
+                    <div class="text-secondary mb-4">Full name as displayed on card</div>
+                    <div class="col-3 mb-2">
+                        <label class="form-label" for="idexpiration">Expiration</label>
+                        <input class="form-control" type="text" name="expiration" id="idexpiration">
+                    </div>
+                    <div class="col-3 mb-2">
+                        <label class="form-label" for="idCVV">CVV</label>
+                        <input class="form-control" type="text" name="CVV" id="idCVV">
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <button class="btn btn-primary col-8 mt-2">Continue to chechout</button>
+        <div class="col-4"> your cart</div>
+        </div>
+    </div>
+</body>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js">
+
+</html>
